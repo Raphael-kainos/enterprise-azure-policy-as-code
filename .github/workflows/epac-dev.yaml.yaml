@@ -1,7 +1,7 @@
 name: Feature-Change - EPAC-SANDBOX Workflow
 
 env:
-  pacEnvironment: epac-test # Change this to a PAC environment name
+  pacEnvironment: epac-dev # Change this to a PAC environment name
   definitionsRootFolder: Definitions
   planFolder: Output
 
@@ -18,7 +18,7 @@ jobs:
     name: Build Deployment Plan
     runs-on: ubuntu-latest
     environment:
-      name: EPAC-TEST
+      name: EPAC-DEV
     steps:
       - name: Checkout
         uses: actions/checkout@v3.3.0

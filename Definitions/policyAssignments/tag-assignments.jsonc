@@ -20,7 +20,7 @@
             "nodeName": "required-and-inherit/",
             "scope": {
                 "epac-dev": [
-                    "/providers/Microsoft.Management/managementGroups/EPAC-Dev"
+                    "/providers/Microsoft.Management/managementGroups/EPAC-TEST"
                 ],
                 "tenant": [
                     "/providers/Microsoft.Management/managementGroups/Contoso-Root"

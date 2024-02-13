@@ -1,7 +1,7 @@
 name: Feature-Change - EPAC-SANDBOX Workflow
 
 env:
-  pacEnvironment: epac-dev # Change this to a PAC environment name
+  pacEnvironment: epac-test # Change this to a PAC environment name
   definitionsRootFolder: Definitions
   planFolder: Output
 
